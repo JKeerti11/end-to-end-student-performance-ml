@@ -28,37 +28,7 @@ This project follows industry-level ML Engineering practices.
 Data → Data Ingestion → Data Transformation → Model Training
      → Model Selection → Model Saving → Prediction Pipeline
      → Flask Web App → User Prediction
-📂 Project Structure
-end-to-end-student-performance-ml/
-│
-├── artifacts/                 # Saved trained model & processed data
-│   ├── model.pkl
-│   ├── preprocessor.pkl
-│   ├── train.csv
-│   └── test.csv
-│
-├── notebook/                  # EDA & Model experimentation
-│
-├── src/
-│   ├── components/
-│   │   ├── data_ingestion.py
-│   │   ├── data_transformation.py
-│   │   └── model_trainer.py
-│   │
-│   ├── pipeline/
-│   │   ├── train_pipeline.py
-│   │   └── predict_pipeline.py
-│   │
-│   ├── exception.py
-│   ├── logger.py
-│   └── utils.py
-│
-├── templates/                 # HTML templates for Flask
-│
-├── app.py                     # Flask application entry point
-├── requirements.txt           # Dependencies
-├── setup.py                   # Package setup
-└── .github/workflows/         # CI/CD pipeline
+
 📊 Dataset Information
 
 The dataset contains student information such as:
